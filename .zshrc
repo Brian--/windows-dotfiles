@@ -61,7 +61,7 @@ source $ZSH/oh-my-zsh.sh
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Projects
 export VIRTUALENVWRAPPER_PYTHON=$(which python)
-source virtualenvwrapper.sh
+source virtualenvwrapper.sh 2> /dev/null
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
